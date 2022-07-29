@@ -28,11 +28,7 @@ const finish = () => {
             // console.log();
        }
     });
-    observer.observe(spans[0], { childList: true, subtree: true, oldValue: true });
-    observer.observe(spans[1], { childList: true, subtree: true, oldValue: true });
-    observer.observe(spans[2], { childList: true, subtree: true, oldValue: true });
-    observer.observe(spans[3], { childList: true, subtree: true, oldValue: true });
-
+    observer.observe(spans[0, 1, 2, 3], { childList: true, subtree: true, oldValue: true });
 }
      
 let interval = null;
