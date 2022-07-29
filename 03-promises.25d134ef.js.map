@@ -1,1 +1,0 @@
-{"mappings":"gfAAAA,EAAA,SAEiBC,SAASC,cAAc,S","sources":["src/js/03-promises.js"],"sourcesContent":["import { Notify } from 'notiflix/build/notiflix-notify-aio';\n\nconst formCast = document.querySelector('.form');\n"],"names":["parcelRequire","document","querySelector"],"version":3,"file":"03-promises.25d134ef.js.map"}
